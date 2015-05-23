@@ -1,8 +1,8 @@
-## Creates a list of four functions to later control if the inverse of the matrix 'i' has already been calculted
+## Creates a list of four functions to later control if the inverse of the matrix has already been calculted
 ## 1-'set' changes the matrix x stored in the main function
-## 2-'get' returns the value of the matrix x
-## 3-'set' changes the value of the inverse of the matrix x
-## 4-'get' returns the value of the inverse of the matrix x
+## 2-'get' returns the value of the matrix
+## 3-'set' changes the value of the inverse of the matrix
+## 4-'get' returns the value of the inverse of the matrix
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
         set <- function(y) {
